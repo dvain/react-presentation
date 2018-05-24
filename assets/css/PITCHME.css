@@ -48,7 +48,7 @@ li {
 */
 
 #gp-logo img {
-    height: 156px;
+    height: 156px !important;
     width: 156px;
 }
 
