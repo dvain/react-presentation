@@ -37,7 +37,7 @@
     font-size: 50% !important;
 }
 
-/*
+
 ul {
   list-style-type: disc !important;
   list-style-position: inside !important;
@@ -45,17 +45,7 @@ ul {
 li {
    margin:0 0 10px 0;
 }
-*/
 
-#gp-logo {
-    height: 156px !important;
-    width: 156px;
-}
-
-#gp-logo img {
-    height: 156px !important;
-    width: 156px;
-}
 
 .gold {
     color: #e49436;
