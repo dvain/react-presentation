@@ -18,7 +18,7 @@
 - server-side rendering
 
 ---
-## fragments - what are fragments ?
+### fragments - what are fragments ?
 
 - A common pattern is for a component to return a list of children. Take this example HTML:
 
@@ -49,7 +49,7 @@ render() {
 }
 ```
 ---
-## fragments 2
+### fragments 2
 
 - with react 16.0 we were now able to return an array of elements from a components render method. Instead of wrapping the children in a DOM element, you can put them into an array:
 
@@ -65,7 +65,7 @@ render() {
 }
 ```
 ---
-## fragments 3
+### fragments 3
 
 - but wait, it's all water under the bridge now. 
 - "To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
@@ -87,7 +87,7 @@ render() {
 - You can use \<Fragment /> the same way you’d use any other element, without changing the way you write JSX. No commas, no keys, no quotes.
 
 ---
-## error boundaries - why you will love them
+### error boundaries - why you will love them
 
 - In the past, JavaScript errors inside components used to corrupt React’s internal state and cause it to emit cryptic errors on next renders. 
 - These errors were always caused by an earlier error in the application code, but React did not provide a way to handle them gracefully in components, and could not recover from them.
@@ -96,7 +96,7 @@ render() {
 - Error boundaries are React components that catch JavaScript errors anywhere in their child component tree, log those errors, and display a fallback UI instead of the component tree that crashed.
 - Error boundaries catch errors during rendering, in lifecycle methods, and in constructors of the whole tree below them.
 
-## error boundaries - 2 example
+### error boundaries - 2 example
 
 - A class component becomes an error boundary if it defines a new lifecycle method called componentDidCatch(error, info):
 
@@ -140,13 +140,13 @@ class ErrorBoundary extends React.Component {
 - [codepen example](https://codepen.io/gaearon/pen/wqvxGa?editors=0010)
 
 ---
-## portals
+### portals
 
 ---
-## custom DOM attributes
+### custom DOM attributes
 
 ---
-## server-side rendering
+### server-side rendering
 ---
 
 ## React 16 "boiling hot"
