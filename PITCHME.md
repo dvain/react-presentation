@@ -128,8 +128,8 @@ class ErrorBoundary extends React.Component {
 ```
 ---
 ### error boundaries - example
-- Then you can use it as a regular component:
 
+- Then you can use it as a regular component:
 ```
 <ErrorBoundary>
   <MyWidget />
@@ -152,11 +152,11 @@ ReactDOM.createPortal(child, container)
 ```
 
 - Normally, when you return an element from a component’s render method, it’s mounted into the DOM as a child of the nearest parent node
+
+---
+### portals
 - However, sometimes it’s useful to insert a child into a different location in the DOM
-
 ```
-
-
 render() {
   // React does *not* create a new div. It renders the children into `domNode`.
   // `domNode` is any valid DOM node, regardless of its location in the DOM.
@@ -166,7 +166,6 @@ render() {
   );
 }
 ```
-
 ---
 ### portals 2 -use cases
 
