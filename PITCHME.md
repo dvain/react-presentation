@@ -187,7 +187,7 @@ aren't ancestors in the DOM tree
  server rendering in React 16 is roughly three times faster than React 15
 ---
 
-## React 16 "boiling hot" (react blog March-May 2018)
+#### React 16 "boiling hot" (react blog March-May 2018)
 
 >One of the biggest lessons we’ve learned is that some of our legacy component lifecycles tend to encourage unsafe coding practices. They are:
      - componentWillMount
@@ -196,13 +196,13 @@ aren't ancestors in the DOM tree
  These lifecycle methods have often been misunderstood and subtly misused; furthermore, we anticipate that their potential misuse may be more problematic with async rendering. Because of this, we will be adding an “UNSAFE_” prefix to these lifecycles in an upcoming release. (Here, “unsafe” refers not to security but instead conveys that code using these lifecycles will be more likely to have bugs in future versions of React, especially once async rendering is enabled.)
 ---
 
-## React 16 
+### React 16 
 - Good reads:
 - [New lifecycles and context API](https://reactjs.org/blog/2018/03/29/react-v-16-3.html)
 - [Pointer events](https://reactjs.org/blog/2018/05/23/react-v-16-4.html)
 ---
 
-## React 17 teaser
+### React 17 teaser
 - [Sneak Peek: Beyond React 16](https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html)
 - [Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
 
