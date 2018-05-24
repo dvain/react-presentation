@@ -58,7 +58,7 @@ Instead of wrapping the children in a DOM element, you can put them into an arra
 
 - with react 16.0 we were now able to return an array of elemnts from a components render method.
 
-```typescript jsx
+```js
 render() {
   // No need to wrap list items in an extra element!
   return [
@@ -77,7 +77,7 @@ render() {
 
 >"To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
 
-```typescript jsx
+```
 render() {
   return (
     <Fragment>
@@ -107,7 +107,7 @@ render() {
 
 - A class component becomes an error boundary if it defines a new lifecycle method called componentDidCatch(error, info):
 
-```typescript jsx
+```
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
@@ -134,7 +134,7 @@ class ErrorBoundary extends React.Component {
 - Then you can use it as a regular component:
 
 
-```jsx harmony
+```
 <ErrorBoundary>
   <MyWidget />
 </ErrorBoundary>
