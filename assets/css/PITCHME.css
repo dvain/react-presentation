@@ -73,3 +73,7 @@ li {
 .reveal .slides section .code-presenting-annotation {
     color: gray;
 }
+
+li{
+    font-size: 0.8em;
+}

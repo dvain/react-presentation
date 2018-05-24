@@ -48,6 +48,7 @@ render() {
   );
 }
 ```
+
 ---
 ### fragments 2
 
@@ -82,9 +83,8 @@ render() {
     </Fragment>
   );
 }
-
 ```
-- You can use \<Fragment /> the same way you’d use any other element, without changing the way you write JSX. No commas, no keys, no quotes.
+- You can use "Fragment" the same way you’d use any other element, without changing the way you write JSX. No commas, no keys, no quotes.
 
 ---
 ### error boundaries - why you will love them
