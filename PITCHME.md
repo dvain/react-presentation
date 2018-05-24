@@ -1,6 +1,6 @@
 ## React 16 Exciting new stuff
-- Presentation on what's new in React 16 
-- ...and what tremendous new features we're going to witness in React 17
+- what's new in React 16 
+- ...and a sneak peek on the new features we're going to get in React 17
 
 ---
 
@@ -18,7 +18,7 @@
 - server-side rendering
 
 ---
-## fragments 1 - what are fragments ?
+## fragments - what are fragments ?
 
 - A common pattern is for a component to return a list of children. Take this example HTML:
 
@@ -37,7 +37,7 @@ Even more text.
 ```
 render() {
   return (
-    // Extraneous div element :(
+    // Never forget the div! meh...
     <div>
       Some text.
       <h2>A heading</h2>
@@ -51,10 +51,7 @@ render() {
 ---
 ## fragments 2
 
-- To address this limitation, React 16.0 added support for returning an array of elements from a component’s render method. 
-Instead of wrapping the children in a DOM element, you can put them into an array:
-
-- with react 16.0 we were now able to return an array of elemnts from a components render method.
+- with react 16.0 we were now able to return an array of elements from a components render method. Instead of wrapping the children in a DOM element, you can put them into an array:
 
 ```
 render() {
@@ -70,10 +67,8 @@ render() {
 ---
 ## fragments 3
 
-- but please ignore that!
-- what is possible since react 16.2:
-
->"To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
+- but wait, it's all water under the bridge now. 
+>>> "To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
 
 ```
 render() {
