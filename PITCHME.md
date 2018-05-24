@@ -172,7 +172,6 @@ render() {
 - A typical use case for portals is when a parent component has an overflow: hidden or z-index style,
  but you need the child to visually “break out” of its container.
 - For example, dialogs, hovercards, and tooltips.
-
 - another exciting aspect of portals is event bubbling through them
 - an event fired from inside a portal will propagate ot ancestors in the containing react tree, even if those
 aren't ancestors in the DOM tree
@@ -183,7 +182,6 @@ aren't ancestors in the DOM tree
 ---
 ### custom DOM attributes & server-side rendering
 - Instead of ignoring unrecognized HTML and SVG attributes, React will now pass them through to the DOM. 
-
 - React 16 includes a completely rewritten server renderer. I
 - According to Sasha Aickin's (core team member) synthetic benchmarks,
  server rendering in React 16 is roughly three times faster than React 15
