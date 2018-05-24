@@ -168,16 +168,12 @@ render() {
 ```
 ---
 ### portals 2 -use cases
-
 - A typical use case for portals is when a parent component has an overflow: hidden or z-index style,
- but you need the child to visually “break out” of its container.
-- For example, dialogs, hovercards, and tooltips.
+ but you need the child to visually “break out” of its container. For example, dialogs, hovercards, and tooltips.
 - another exciting aspect of portals is event bubbling through them
-- an event fired from inside a portal will propagate ot ancestors in the containing react tree, even if those
+- an event fired from inside a portal will propagate to ancestors in the containing react tree, even if those
 aren't ancestors in the DOM tree
-
-- [event bubbling example](https://codepen.io/gaearon/pen/jGBWpE
-)
+- [event bubbling example](https://codepen.io/gaearon/pen/jGBWpE)
 
 ---
 ### custom DOM attributes & server-side rendering
@@ -189,11 +185,11 @@ aren't ancestors in the DOM tree
 
 #### React 16 "boiling hot" (react blog March-May 2018)
 
--One of the biggest lessons we’ve learned is that some of our legacy component lifecycles tend to encourage unsafe coding practices. They are:
+- One of the biggest lessons we’ve learned is that some of our legacy component lifecycles tend to encourage unsafe coding practices. They are:
      - componentWillMount
      - componentWillReceiveProps
      - componentWillUpdate
--These lifecycle methods have often been misunderstood and subtly misused; furthermore, we anticipate that their potential misuse may be more problematic with async rendering. Because of this, we will be adding an “UNSAFE_” prefix to these lifecycles in an upcoming release. (Here, “unsafe” refers not to security but instead conveys that code using these lifecycles will be more likely to have bugs in future versions of React, especially once async rendering is enabled.)
+- These lifecycle methods have often been misunderstood and subtly misused; furthermore, we anticipate that their potential misuse may be more problematic with async rendering. Because of this, we will be adding an “UNSAFE_” prefix to these lifecycles in an upcoming release. (Here, “unsafe” refers not to security but instead conveys that code using these lifecycles will be more likely to have bugs in future versions of React, especially once async rendering is enabled.)
 ---
 
 ### React 16 
