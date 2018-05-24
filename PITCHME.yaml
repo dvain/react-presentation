@@ -1,8 +1,8 @@
-theme : night
+theme : sky
 
 layout : center-right
 
-logo : assets/images/logo.png
+logo : assets/images/logo.jpg
 
 theme-override : assets/css/PITCHME.css
 
