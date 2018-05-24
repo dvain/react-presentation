@@ -32,6 +32,7 @@ More text.
 Even more text.
 ```
 ---
+
 -Prior to version 16, the only way to achieve this in React was by wrapping the children in an extra element, usually a div or span:
 
 ```jsx harmony
@@ -56,7 +57,6 @@ To address this limitation, React 16.0 added support for returning an array of e
 - with react 16.0 we were now able to return an array of elemnts from a components render method.
 
 ```jsx harmony
-
 render() {
   // No need to wrap list items in an extra element!
   return [
@@ -66,7 +66,6 @@ render() {
     <li key="C">Third item</li>,
   ];
 }
-
 ```
 ---
 ## fragments 3
