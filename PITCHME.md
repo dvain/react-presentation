@@ -33,9 +33,10 @@ Even more text.
 ```
 ---
 
--Prior to version 16, the only way to achieve this in React was by wrapping the children in an extra element, usually a div or span:
+- Prior to version 16, the only way to achieve this in React was by wrapping the children in an extra element,
+ usually a div or span.
 
-```jsx harmony
+```typescript jsx
 render() {
   return (
     // Extraneous div element :(
@@ -52,11 +53,12 @@ render() {
 ---
 ## fragments 2
 
-To address this limitation, React 16.0 added support for returning an array of elements from a component’s render method. Instead of wrapping the children in a DOM element, you can put them into an array:
+- To address this limitation, React 16.0 added support for returning an array of elements from a component’s render method. 
+Instead of wrapping the children in a DOM element, you can put them into an array:
 
 - with react 16.0 we were now able to return an array of elemnts from a components render method.
 
-```jsx harmony
+```typescript jsx
 render() {
   // No need to wrap list items in an extra element!
   return [
@@ -75,7 +77,7 @@ render() {
 
 >"To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
 
-```jsx harmony
+```typescript jsx
 render() {
   return (
     <Fragment>
@@ -105,7 +107,7 @@ render() {
 
 - A class component becomes an error boundary if it defines a new lifecycle method called componentDidCatch(error, info):
 
-```jsx harmony
+```typescript jsx
 class ErrorBoundary extends React.Component {
   constructor(props) {
     super(props);
