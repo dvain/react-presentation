@@ -31,7 +31,7 @@ More text.
 <h2>Another heading</h2>
 Even more text.
 ```
-
+---
 -Prior to version 16, the only way to achieve this in React was by wrapping the children in an extra element, usually a div or span:
 
 ```jsx harmony
