@@ -68,7 +68,7 @@ render() {
 ## fragments 3
 
 - but wait, it's all water under the bridge now. 
->>> "To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
+- "To provide a more consistent authoring experience for fragments, React now provides a first-class Fragment component that can be used in place of arrays."
 
 ```
 render() {
