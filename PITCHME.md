@@ -36,7 +36,7 @@ Even more text.
 - Prior to version 16, the only way to achieve this in React was by wrapping the children in an extra element,
  usually a div or span.
 
-```typescript jsx
+```
 render() {
   return (
     // Extraneous div element :(
@@ -58,7 +58,7 @@ Instead of wrapping the children in a DOM element, you can put them into an arra
 
 - with react 16.0 we were now able to return an array of elemnts from a components render method.
 
-```js
+```
 render() {
   // No need to wrap list items in an extra element!
   return [
@@ -169,3 +169,5 @@ class ErrorBoundary extends React.Component {
 - [Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
 
 ---
+
+theme : moon
