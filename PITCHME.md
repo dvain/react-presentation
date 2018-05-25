@@ -81,8 +81,7 @@ render() {
   );
 }
 ```
-- You can use "Fragment" the same way you’d use any other element, without changing the way you write JSX.
-- No commas, no keys, no quotes.
+- You can use "Fragment" the same way you’d use any other element, without changing the way you write JSX. No commas, no keys, no quotes.
 ---
 
 ### error boundaries - why you will love them
@@ -205,3 +204,5 @@ aren't ancestors in the DOM tree
 - [Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
 
 ---
+## Thank you!
+![thanks](https://media.giphy.com/media/3otPoUkg3hBxQKRJ7y/giphy.gif)
