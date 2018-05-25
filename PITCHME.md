@@ -4,13 +4,7 @@
 
 ---
 
-### you ready?
-
-![pool](https://media.giphy.com/media/26FLf3L9bDpYCVO5G/giphy.gif)
-
----
-
-## React 16
+## React 16 - outline
 - fragments
 - error boundaries
 - portals
@@ -193,15 +187,32 @@ aren't ancestors in the DOM tree
 - These lifecycle methods have often been misunderstood and subtly misused; furthermore, we anticipate that their potential misuse may be more problematic with async rendering. Because of this, we will be adding an “UNSAFE_” prefix to these lifecycles in an upcoming release. (Here, “unsafe” refers not to security but instead conveys that code using these lifecycles will be more likely to have bugs in future versions of React, especially once async rendering is enabled.)
 ---
 
-### React 16 
+#### The problems with componentWillReceiveProps in a nuthsell
+* a conversation between a developer and Dan Abramov(facebook, react core team, that redux guy) in a hackernews thread
+* dev: 'Hang on, I use componentWillReceiveProps in just about every large non-function component I build.... I just counted 50 times in one of my applications.'
+* Dan: 'Curious, what do you use it for?'
+* dev: 'I use it to handle changes in props. For example load something from network, which goes into redux, redux triggers a props update, so then I do something because for example now redux state has changed to say "loaded === true" Is this not the correct function to handle changes in props?'
+* [continue](https://news.ycombinator.com/item?id=16711813)
+---
+#### React 17
+
+> 17.0: Remove componentWillMount, componentWillReceiveProps, and componentWillUpdate . (Only the new “UNSAFE_” lifecycle names will work from this point forward.)
+
+---
+#### React 16 
 - Good reads:
 - [New lifecycles and context API](https://reactjs.org/blog/2018/03/29/react-v-16-3.html)
 - [Pointer events](https://reactjs.org/blog/2018/05/23/react-v-16-4.html)
 ---
 
-### React 17 teaser
-- [Sneak Peek: Beyond React 16](https://reactjs.org/blog/2018/03/01/sneak-peek-beyond-react-16.html)
+#### React 17 teaser - Async Rendering
+- a.r. is a generic way for components to suspend rendering while they load async data ("suspense")
+- state update can be paused until data is ready
+- on fast networks: fluid and instantaneous updates without tons a "spinner parade"
+- on slow networks: we will be able to intentionally design whcih loading states the user should see (and their granularity)
+- instead of showing spinners based on how the code is written: the app stays responsive throughout
 - [Async Rendering](https://reactjs.org/blog/2018/03/27/update-on-async-rendering.html)
+- [discussion on async rendering](https://news.ycombinator.com/item?id=16692981)
 
 ---
 ## Thank you!
