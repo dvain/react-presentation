@@ -11,9 +11,10 @@
 - custom DOM attributes
 - server-side rendering
 
-
+---
 ##well HELLO there @fa[user-astronaut]
 ![pool](https://media.giphy.com/media/26FLf3L9bDpYCVO5G/giphy.gif)
+
 ---
 ### fragments - what are fragments ?
 
