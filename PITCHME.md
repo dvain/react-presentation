@@ -1,6 +1,6 @@
-## React 16 Exciting new stuff
+## React 16
 - what's new in React 16 
-- ...and a sneak peek on the new features we're going to get in React 17
+- ...and a tiny sneak peek on the new features we're going to get in React 17
 
 ---
 
