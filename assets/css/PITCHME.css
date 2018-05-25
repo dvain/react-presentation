@@ -60,3 +60,13 @@
 .reveal .slides section .code-presenting-annotation {
     color: gray;
 }
+
+#gb-logo {
+    width: 90px;
+    height: 90px;
+}
+
+#gb-logo img {
+    max-height: 100%;
+    max-width: 100%;
+}
