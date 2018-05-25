@@ -187,7 +187,7 @@ aren't ancestors in the DOM tree
 - These lifecycle methods have often been misunderstood and subtly misused; furthermore, we anticipate that their potential misuse may be more problematic with async rendering. Because of this, we will be adding an “UNSAFE_” prefix to these lifecycles in an upcoming release. (Here, “unsafe” refers not to security but instead conveys that code using these lifecycles will be more likely to have bugs in future versions of React, especially once async rendering is enabled.)
 ---
 
-#### The problems with componentWillReceiveProps in a nuthsell (thread on async rendering on hackernews)
+#### The problems with componentWillReceiveProps in a nuthsell
 * dev: 'Hang on, I use componentWillReceiveProps in just about every large non-function component I build.... I just counted 50 times in one of my applications.'
 * Dan Abramov: 'Curious, what do you use it for?'
 * dev: 'I use it to handle changes in props. For example load something from network, which goes into redux, redux triggers a props update, so then I do something because for example now redux state has changed to say "loaded === true" Is this not the correct function to handle changes in props?'
